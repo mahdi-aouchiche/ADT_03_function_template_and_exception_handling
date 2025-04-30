@@ -1,4 +1,4 @@
-# C++ Programming : Data Structures and Algorithms Introduction
+# C++ Programming : Data Structures and Algorithms
 
 ## Abstact Data Types : function template and exception handling
 
