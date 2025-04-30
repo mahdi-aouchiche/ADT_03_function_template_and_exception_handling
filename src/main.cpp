@@ -44,22 +44,22 @@ int main(){
  
     // for loop to display the vectors using selection_sort
     cout << " -- integers: " ;
-    for ( unsigned i = 0; i < integers.size(); ++i ) {
+    for ( unsigned i = 0; i < integers.size()-1; ++i ) {
       cout << integers.at(i) << ", ";
     }
-    cout << endl;
+    cout << integers.at(integers.size()-1) << endl;
 
     cout << " -- doubles: ";
-    for ( unsigned i = 0; i < doubles.size(); ++i ) {
+    for ( unsigned i = 0; i < doubles.size()-1; ++i ) {
       cout << doubles.at(i) << ", ";
     }
     cout << endl;
 
     cout << " -- strings: ";
-    for ( unsigned i = 0; i < strings.size(); ++i ) {
+    for ( unsigned i = 0; i < strings.size()-1; ++i ) {
       cout << strings.at(i) << ", ";
     }
-    cout << endl;
+    cout << strings.at(strings.size()-1) << endl;
 
     cout << " -- empty vector: ";
     for ( unsigned i = 0; i < empty.size(); ++i ) {
